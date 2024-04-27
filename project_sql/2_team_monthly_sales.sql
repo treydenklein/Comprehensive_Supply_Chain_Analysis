@@ -1,5 +1,8 @@
--- Sales by month for each sales team id
+/*
+Question: How did each sales team perform month-over-month?
+*/
 
+-- Sales by month for each sales team id
 SELECT
     sales_team_id,
     EXTRACT(MONTH FROM order_date) AS month,

@@ -1,4 +1,8 @@
--- Total sales by sales team id
+/*
+Question: What were the total sales for each sales team over the given data's timeframe?
+*/
+
+-- Total amount of sales for each sales team
 SELECT
     sales_team_id,
     SUM(order_revenue) AS total_sales
