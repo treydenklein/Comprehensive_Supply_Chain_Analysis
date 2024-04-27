@@ -104,7 +104,7 @@ df.to_csv(r"[file path]\csv_files\clean_sales_data.csv", index=False)
 
 ### 1. Total Sales for Each Sales Team
 
-SQL Query:
+#### SQL Query:
 
 - Group data by Sales Team ID
 - Calculate the sum of each order's revenue to find the total amount of sales
@@ -123,7 +123,7 @@ ORDER BY
     total_sales DESC;
 ```
 
-Here is a breakdown of the results:
+#### Breakdown of the Results:
 
 - **Top Sales Teams:** The top 5 sales teams in terms of total sales are teams 26, 1, 13, 8, and 11...all with totals over $3.2 million
 - **Sales Discrepancy:** There is a significant difference in total sales between the highest and lowest performing sales teams. The top sales team (Team 26) has a total that is over $1,000,000 more than the lowest sales team (Team 28)
@@ -135,7 +135,7 @@ _Bar graph visualizing the total amount of sales for each sales team, comparing 
 
 ### 2. Monthly Sales Performance by Sales Team ID
 
-SQL Query:
+#### SQL Query:
 
 - Group data by the sales team id, month, and year
 - Calculate the sum of each order's revenue to find the total amount of sales for the month
@@ -160,9 +160,11 @@ ORDER BY
     month;
 ```
 
-Here is a breakdown of the results:
+#### Breakdown of the Results:
 
 - **Overall Sales Trends:** There are fluctuations in sales volumes over time, likely influenced by seasonality, economic factors, and team performance. Notable dips and spikes may indicate specific events or strategies impacting sales.
 - **Seasonality Patterns:** For many sales teams, there is an observable pattern where sales tend to increase towards the end of the year, possibly due to holiday seasons, followed by a drop at the beginning of the new year.
 - **High-Performing Sales Teams:** Teams with consistently high sales over multiple months or years can be identified. Understanding what contributes to their success might be valuable for other teams. Also, teams with signigicant spikes in sales may have launched successful campaigns or promotions.
 - **Underperforming Sales Teams:** Teams with consistently low sales or frequent dips may require further analysis to understand the root causes. This could be due to staffing, market conditions, or other factors.
+
+#### Statistical Analysis:
