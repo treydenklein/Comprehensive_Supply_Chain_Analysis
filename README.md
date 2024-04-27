@@ -168,3 +168,44 @@ ORDER BY
 - **Underperforming Sales Teams:** Teams with consistently low sales or frequent dips may require further analysis to understand the root causes. This could be due to staffing, market conditions, or other factors.
 
 #### Statistical Analysis:
+
+| Sales Team ID | Mean      | Std Deviation | Variance   |
+| ------------- | --------- | ------------- | ---------- |
+| 1             | 105205.13 | 54894.37      | 3.0134e+09 |
+| 2             | 90801.86  | 34954.17      | 1.2218e+09 |
+| 3             | 94316.98  | 47533.47      | 2.2594e+09 |
+| 4             | 90402.67  | 41641.02      | 1.7340e+09 |
+| 5             | 89118.86  | 40672.74      | 1.6543e+09 |
+| 6             | 82198.95  | 39696.13      | 1.5758e+09 |
+| 7             | 97959.84  | 41221.0       | 1.6992e+09 |
+| 8             | 104154.96 | 38546.38      | 1.4858e+09 |
+| 9             | 96558.24  | 50989.43      | 2.5999e+09 |
+| 10            | 86388.96  | 41906.5       | 1.7562e+09 |
+| 11            | 103780.41 | 51403.13      | 2.6423e+09 |
+| 12            | 99411.25  | 57711.99      | 3.3307e+09 |
+| 13            | 104597.59 | 45366.97      | 2.0582e+09 |
+| 14            | 86612.57  | 43566.08      | 1.8980e+09 |
+| 15            | 96674.95  | 53800.94      | 2.8945e+09 |
+| 16            | 95942.49  | 41389.63      | 1.7131e+09 |
+| 17            | 88963.03  | 42508.36      | 1.8070e+09 |
+| 18            | 98166.45  | 35719.22      | 1.2759e+09 |
+| 19            | 102955.01 | 47872.97      | 2.2918e+09 |
+| 20            | 93894.66  | 47121.04      | 2.2204e+09 |
+| 21            | 95343.72  | 39443.65      | 1.5558e+09 |
+| 22            | 92063.02  | 49656.77      | 2.4658e+09 |
+| 23            | 93039.87  | 46604.17      | 2.1719e+09 |
+| 24            | 99949.52  | 47511.02      | 2.2573e+09 |
+| 25            | 90951.2   | 51670.45      | 2.6698e+09 |
+| 26            | 107953.86 | 50256.74      | 2.5257e+09 |
+| 27            | 81799.87  | 40029.39      | 1.6024e+09 |
+| 28            | 78291.38  | 34181.64      | 1.1684e+09 |
+
+_Table of the mean, standard deviation, and variance of the monthly sales for each sales team_
+
+**Sales Performance:** The teams with the highest mean sales are not necessarily the most consistent. For example, Team 12 has a high mean (99,411.25), but also a high standard deviation and variance, indicating large swings in performance
+
+**Consistency:** Team with low standard deviations and variance (Teams 28, 2, and 18) are likely more reliable in terms of their sales output
+
+**Improvement Opportunities:** Teams with high variability might benefit from analysis to understand why their sales fluctuate so much. Addressing these issues could help improve consistency and overall performance
+
+**Targets for Intervention:** Sales teams with low mean sales and high variance may need special attention to improve their performance. Focusing on teams with high variability can also lead to more consistent outcomes for the organization
