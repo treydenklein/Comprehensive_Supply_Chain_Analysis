@@ -1,6 +1,5 @@
 # Import libraries
 import pandas as pd
-from dateutil import parser
 
 # Read CSV file into pandas dataframe
 df = pd.read_csv(
