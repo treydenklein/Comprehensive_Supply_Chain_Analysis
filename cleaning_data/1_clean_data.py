@@ -3,7 +3,7 @@ import pandas as pd
 
 # Read CSV file into pandas dataframe
 df = pd.read_csv(
-    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\original_csv_files\original_sales_data.csv"
+    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\csv_files\original_sales_data.csv"
 )
 
 # Set pandas to display all columns
@@ -68,6 +68,6 @@ df["order_profit"] = (df["order_revenue"] - df["order_cost"]).round(2)
 
 # Write dataframe to CSV file
 df.to_csv(
-    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\clean_csv_files\clean_sales_data.csv",
+    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\csv_files\clean_sales_data.csv",
     index=False,
 )
