@@ -18,11 +18,12 @@ plt.pie(
     autopct="%1.2f%%",
     startangle=140,
     wedgeprops={"edgecolor": "white", "linewidth": 1, "antialiased": True},
+    textprops={"color": "white"},
 )
 plt.axis("equal")  # Equal aspect ratio ensures that pie is drawn as a circle
 
 # Title for the pie chart
-plt.title("Percentage of Sales by Channel", pad=10)
+plt.title("Percentage of Sales by Channel", pad=10, color="white")
 
 plt.show()
 # Note: Saved as '...\assets\sales_by_channel_pie_chart.png'

@@ -239,3 +239,7 @@ ORDER BY
 
 ![Sales by Channel Bar Graph](assets/sales_by_channel_bar_chart.png)
 _Bar graph visualizing the total amount of sales brought in by the various sales channels_
+
+<img src='https://github.com/treydenklein/Supply_Chain_Analysis/assets/80863071/1efd6111-e954-462d-b894-d0c34c7f8dde' width=80% height=80%>
+
+_Pie chart visualizing the distribution of sales brought in by the various sales channels as percentages_
