@@ -11,7 +11,7 @@ df = pd.read_csv(
 sales_by_channel = df.groupby("sales_channel")["total_sales"].sum()
 
 # Plotting the pie chart
-plt.figure(figsize=(6, 6))
+plt.figure(figsize=(6, 6), facecolor="none")  # Transparent figure background
 plt.pie(
     sales_by_channel,
     labels=sales_by_channel.index,
