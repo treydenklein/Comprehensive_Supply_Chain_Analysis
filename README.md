@@ -337,3 +337,10 @@ LIMIT 5;
 
 ![Top 5 Customers](assets/top_customers.png)
 _Bar graph visualizing the relationships with the top 5 customers based on their number of orders and total generated revenue_
+
+# Conclusions
+
+### Insights
+
+1. **Room to Grow:** While the data does display a strong operation within the company, there are still areas for potential improvement regarding sales team performance, sales channel optimization, and customer relations
+2. **Warehouse Workload Distribution:** Despite there being consistency in order processing times throughout the warehouses, equalizing the workload of orders being handled by each could improve work conditions and decrease customer wait times
