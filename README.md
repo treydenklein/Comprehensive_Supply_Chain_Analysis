@@ -243,3 +243,33 @@ _Bar graph visualizing the total amount of sales brought in by the various sales
 <img src='https://github.com/treydenklein/Supply_Chain_Analysis/assets/80863071/1efd6111-e954-462d-b894-d0c34c7f8dde' width=75% height=75%>
 
 _Pie chart visualizing the distribution of sales brought in by the various sales channels as percentages_
+
+### 4. Warehouse Performance
+
+#### SQL Query:
+
+- Group the data by warehouse code
+- Count the rows of data to determine the number of orders
+- Calculate the average processing time using the order and delivery dates
+
+```sql
+-- Average order processing time (in days) and number of orders by warehouse
+SELECT
+    warehouse_code,
+    COUNT(*) AS num_orders,
+    ROUND(AVG(delivery_date - order_date), 2) AS avg_processing_time
+FROM
+    sales_data
+GROUP BY
+    warehouse_code
+ORDER BY
+    avg_processing_time DESC;
+```
+
+#### Breakdown of the Results:
+
+- **Order Distribution:** WARE-NMK1003 has the most orders (2505), while WARE-NBV1002 has the fewest (691). This reflects a substantial variance in workload across warehouses.
+- **Consistency in Processing Times:** Despite differences in order volumes, the average processing times across all warehouses show relatively minor variations, with a difference of just 0.66 days between the warehouse with the longest and shortest processing times. This suggests a relatively consistent processing time despite varying workloads.
+
+![Warehouse Performance](assets/warehouse_performance.png)
+_Bar graphs visualizing the total number of orders and average processing times for each warehouse_

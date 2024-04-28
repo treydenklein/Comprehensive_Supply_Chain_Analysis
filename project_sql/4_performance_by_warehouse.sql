@@ -1,3 +1,7 @@
+/*
+Warehouse Performance: What was the order volume handled by each warehouse, and how efficient was the processing from the order date to delivery?
+*/
+
 -- Average order processing time (in days) and number of orders by warehouse
 SELECT
     warehouse_code,
