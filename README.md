@@ -338,6 +338,15 @@ LIMIT 5;
 ![Top 5 Customers](assets/top_customers.png)
 _Bar graph visualizing the relationships with the top 5 customers based on their number of orders and total generated revenue_
 
+# Interactive Dashboard
+
+### Preview
+
+![Interactive Dashboard Preview](assets/interactive_dashboard_preview.png)
+_Preview of the Tableau interactive dashboard built for this project_
+
+**[CLICK HERE](https://public.tableau.com/views/ComprehensiveSupplyChainAnalysis-InteractiveDashboard/CompanyKeyMetrics-Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link) TO VIEW THE COMPLETE DASHBOARD**
+
 # Conclusion
 
 ### Insights
