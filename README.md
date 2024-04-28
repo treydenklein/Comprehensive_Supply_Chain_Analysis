@@ -338,7 +338,7 @@ LIMIT 5;
 ![Top 5 Customers](assets/top_customers.png)
 _Bar graph visualizing the relationships with the top 5 customers based on their number of orders and total generated revenue_
 
-# Conclusions
+# Conclusion
 
 ### Insights
 
