@@ -1,3 +1,5 @@
+-- Customer Relations: Which customers generated the highest number of orders and the most revenue?
+
 -- Top 5 customers by total sales and number of orders
 SELECT
     customer_id,

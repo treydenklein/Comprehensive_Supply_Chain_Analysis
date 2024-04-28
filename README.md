@@ -304,3 +304,36 @@ LIMIT 5;
 
 ![Best Selling Products](assets/best_selling_products.png)
 _Bar graph visualizing the 5 best-selling products based on the total quantity sold_
+
+### 6. Customer Relations
+
+#### SQL Query:
+
+- Group the data by customer id
+- Count the rows of data to determine the number of orders
+- Calculate the sum of the revenue for every order to find the total sales generated from each customer
+- Arrange the data by total sales in descending order and limit it to the first 5 results
+
+```sql
+-- Top 5 customers by total sales and number of orders
+SELECT
+    customer_id,
+    COUNT(*) AS num_orders,
+    SUM(order_revenue) AS total_sales
+FROM
+    sales_data
+GROUP BY
+    customer_id
+ORDER BY
+    total_sales DESC
+LIMIT 5;
+```
+
+#### Breakdown of the Results:
+
+- **Leading the Pack:** Customer 12 leads with the most orders (210) and the highest total sales (over $2.2 million). This customer seems to be a major source of revenue, suggesting a high frequency of purchases or large order sizes.
+- **Consistency in Order Count:** The number of orders for Customer 29, 17, 34, and 33 are relatively close, ranging from 156 to 179. This consistency could suggest steady purchasing behavior from these customers.
+- **Potential Growth Areas:** Considering Customer 12's higher order count and total sales, there may be opportunities to explore similar patterns with other customers to increase sales. If Customer 29, 17, 34, or 33 can be encouraged to increase their order frequency or average order size, it could lead to substantial sales growth.
+
+![Top 5 Customers](assets/top_customers.png)
+_Bar graph visualizing the relationships with the top 5 customers based on their number of orders and total generated revenue_
