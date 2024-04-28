@@ -125,10 +125,10 @@ ORDER BY
 
 #### Breakdown of the Results:
 
-- **Top Sales Teams:** The top 5 sales teams in terms of total sales are teams 26, 1, 13, 8, and 11...all with totals over $3.2 million
-- **Sales Discrepancy:** There is a significant difference in total sales between the highest and lowest performing sales teams. The top sales team (Team 26) has a total that is over $1,000,000 more than the lowest sales team (Team 28)
-- **Middle of the Pack:** A majority of the sales teams have totals between $2.7 and $3.3 million
-- **Overall Sales Performance:** The cumulative total sales amounts to approximately $87.2 million, indicating a strong overall performance across all teams
+- **Top Sales Teams:** The top 5 sales teams in terms of total sales are teams 26, 1, 13, 8, and 11...all with totals over $3.2 million.
+- **Sales Discrepancy:** There is a significant difference in total sales between the highest and lowest performing sales teams. The top sales team (Team 26) has a total that is over $1,000,000 more than the lowest sales team (Team 28).
+- **Middle of the Pack:** A majority of the sales teams have totals between $2.7 and $3.3 million.
+- **Overall Sales Performance:** The cumulative total sales amounts to approximately $87.2 million, indicating a strong overall performance across all teams.
 
 ![Total Sales by Team](assets/sales_by_team_id.png)
 _Bar graph visualizing the total amount of sales for each sales team, comparing each to the graph's average value_
@@ -202,13 +202,13 @@ ORDER BY
 
 _Table of the mean, standard deviation, and variance of the monthly sales for each sales team_
 
-**Sales Performance:** The teams with the highest mean sales are not necessarily the most consistent. For example, Team 12 has a high mean (99,411.25), but also a high standard deviation and variance, indicating large swings in performance
+**Sales Performance:** The teams with the highest mean sales are not necessarily the most consistent. For example, Team 12 has a high mean (99,411.25), but also a high standard deviation and variance, indicating large swings in performance.
 
-**Consistency:** Team with low standard deviations and variance (Teams 28, 2, and 18) are likely more reliable in terms of their sales output
+**Consistency:** Team with low standard deviations and variance (Teams 28, 2, and 18) are likely more reliable in terms of their sales output.
 
-**Improvement Opportunities:** Teams with high variability might benefit from analysis to understand why their sales fluctuate so much. Addressing these issues could help improve consistency and overall performance
+**Improvement Opportunities:** Teams with high variability might benefit from analysis to understand why their sales fluctuate so much. Addressing these issues could help improve consistency and overall performance.
 
-**Targets for Intervention:** Sales teams with low mean sales and high variance may need special attention to improve their performance. Focusing on teams with high variability can also lead to more consistent outcomes for the organization
+**Targets for Intervention:** Sales teams with low mean sales and high variance may need special attention to improve their performance. Focusing on teams with high variability can also lead to more consistent outcomes for the organization.
 
 ### 3. Sales Channel Revenue
 
@@ -233,9 +233,9 @@ ORDER BY
 
 #### Breakdown of the Results:
 
-- **In-Store Sales Lead:** With sales of over $34 million, this channel is the most successful, indicating a strong customer presence and preference for in-person shopping. This might reflect a traditional retail environment, customer loyalty, or unique in-store experiences
-- **Online Sales Success:** The second-highest sales come from online shopping, totaling about $24.6 million. This shows a significant shift towards e-commerce, a common trend in many industries. It suggests that the business has a substantial digital footprint, with customers likely valuing convenience and the ability to shop from home
-- **Potential Growth Areas:** The data could hint at areas for growth or optimization. For example, increasing the online presence or expanding wholesale partnerships could be strategic. Alternatively, analyzing in-store sales to understand what drives its success could inform other channels
+- **In-Store Sales Lead:** With sales of over $34 million, this channel is the most successful, indicating a strong customer presence and preference for in-person shopping. This might reflect a traditional retail environment, customer loyalty, or unique in-store experiences.
+- **Online Sales Success:** The second-highest sales come from online shopping, totaling about $24.6 million. This shows a significant shift towards e-commerce, a common trend in many industries. It suggests that the business has a substantial digital footprint, with customers likely valuing convenience and the ability to shop from home.
+- **Potential Growth Areas:** The data could hint at areas for growth or optimization. For example, increasing the online presence or expanding wholesale partnerships could be strategic. Alternatively, analyzing in-store sales to understand what drives its success could inform other channels.
 
 ![Sales by Channel Bar Graph](assets/sales_by_channel_bar_chart.png)
 _Bar graph visualizing the total amount of sales brought in by the various sales channels_
@@ -351,5 +351,5 @@ _Preview of the Tableau interactive dashboard built for this project_
 
 ### Insights
 
-1. **Room to Grow:** While the data does display a strong operation within the company, there are still areas for potential improvement regarding sales team performance, sales channel optimization, and customer relations
-2. **Warehouse Workload Distribution:** Despite there being consistency in order processing times throughout the warehouses, equalizing the workload of orders being handled by each could improve work conditions and decrease customer wait times
+1. **Room to Grow:** While the data does display a strong operation within the company, there are still areas for potential improvement regarding sales team performance, sales channel optimization, and customer relations.
+2. **Warehouse Workload Distribution:** Despite there being consistency in order processing times throughout the warehouses, equalizing the workload of orders being handled by each could improve work conditions and decrease customer wait times.
