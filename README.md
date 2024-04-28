@@ -93,12 +93,12 @@ df.to_csv(r"[file path]\csv_files\clean_sales_data.csv", index=False)
 
 ### Initial SQL Queries - Questions to Answer:
 
-1. What were the total sales for each sales team over the given data's timeframe?
-2. How did each sales team perform month-over-month?
-3. Which sales channels contributed most to the company's revenue (In-Store, Online, Distributor, Wholesale)?
-4. Warehouse Performance: What was the order volume handled by each warehouse, and how efficient was the processing from the order date to delivery?
-5. What were the company's best-selling products?
-6. Customer Relations: Which customers generated the highest number of orders and the most revenue?
+1. Overall Sales Performance: What were the total sales for each sales team over the given data's timeframe?
+2. Sales Performance MoM: How did each sales team perform month-over-month?
+3. Sources of Revenue: Which sales channels contributed most to the company's revenue (In-Store, Online, Distributor, Wholesale)?
+4. Warehouse Performance: What was the order volume handled by each warehouse, and how efficient was processing from the order date to delivery?
+5. Trending Goods: What were the company's best-selling products?
+6. Customer Relations: Which customers generated the highest revenue and number of orders?
 
 # Analysis
 
