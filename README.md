@@ -273,3 +273,34 @@ ORDER BY
 
 ![Warehouse Performance](assets/warehouse_performance.png)
 _Bar graphs visualizing the total number of orders and average processing times for each warehouse_
+
+### 5. Best-Selling Products
+
+#### SQL Query:
+
+- Group the data by product id
+- Calculate the sum of product quantities for each order to find the total quantity sold of each product
+- Arrange the data in descending order and limit it to the first 5 results
+
+```sql
+-- Top 5 best-selling products by total quantity sold
+SELECT
+    product_id,
+    SUM(order_quantity) AS total_quantity_sold
+FROM
+    sales_data
+GROUP BY
+    product_id
+ORDER BY
+    total_quantity_sold DESC
+LIMIT 5;
+```
+
+#### Breakdown of the Results:
+
+- **Product 23 Leads:** Having 956 units sold, Product 23 holds the top spot in terms of total quantity with a notable lead.
+- **Strong Competition:** Products 37, 8, 4, and 40 are close in sales numbers, with 896, 879, 878, and 855 units sold, respectively.
+- **Overall Range and Distribution:** The range of total quantities sold across these top 5 products isn't extremely wide, indicating that the top products are relatively well-distributed in terms of sales. The gap between the highest and the lowest is just 101 units, suggesting a competitive market.
+
+![Best Selling Products](assets/best_selling_products.png)
+_Bar graph visualizing the 5 best-selling products based on the total quantity sold_

@@ -1,3 +1,5 @@
+-- Question: What were the company's best-selling products?
+
 -- Top 5 best-selling products by total quantity sold
 SELECT
     product_id,
