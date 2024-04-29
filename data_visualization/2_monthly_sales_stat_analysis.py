@@ -3,7 +3,7 @@ import pandas as pd
 
 # Read CSV into pandas DataFrame
 df = pd.read_csv(
-    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\csv_files\team_monthly_sales.csv"
+    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Comprehensive_Supply_Chain_Analysis\csv_files\team_monthly_sales.csv"
 )
 
 # Group data by sales team ids
