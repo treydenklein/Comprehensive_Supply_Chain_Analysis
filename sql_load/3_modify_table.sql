@@ -1,7 +1,7 @@
 -- Upload data from CSV file into database table
 
 COPY sales_data
-FROM 'C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\csv_files\clean_sales_data.csv'
+FROM 'C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Comprehensive_Supply_Chain_Analysis\csv_files\clean_sales_data.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 
