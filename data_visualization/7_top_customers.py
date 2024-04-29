@@ -5,7 +5,7 @@ import matplotlib.ticker as mtick  # Import ticker module
 
 # Read CSV file
 df = pd.read_csv(
-    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\csv_files\top_5_customers.csv"
+    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Comprehensive_Supply_Chain_Analysis\csv_files\top_5_customers.csv"
 )
 
 # Extract customer ids, number of orders, and total sales

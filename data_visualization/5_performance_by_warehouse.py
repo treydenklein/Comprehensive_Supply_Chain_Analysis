@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Read the CSV file
 df = pd.read_csv(
-    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\csv_files\performance_by_warehouse.csv"
+    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Comprehensive_Supply_Chain_Analysis\csv_files\performance_by_warehouse.csv"
 )
 
 # Extract warehouse codes, number of orders, and average processing times

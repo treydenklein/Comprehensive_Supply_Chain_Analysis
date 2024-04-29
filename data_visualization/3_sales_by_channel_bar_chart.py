@@ -6,7 +6,7 @@ import matplotlib.ticker as mtick  # Import ticker module
 
 # Read the CSV file
 df = pd.read_csv(
-    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\csv_files\sales_by_channel.csv"
+    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Comprehensive_Supply_Chain_Analysis\csv_files\sales_by_channel.csv"
 )
 
 # Extract sales channels and total sales

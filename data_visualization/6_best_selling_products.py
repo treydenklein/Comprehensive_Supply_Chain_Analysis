@@ -5,7 +5,7 @@ import numpy as np
 
 # Read CSV file
 df = pd.read_csv(
-    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Supply_Chain_Analysis\csv_files\top_5_best_selling_products.csv"
+    r"C:\Users\treyd\Projects\Data_Analytics\Data_Analysis_Portfolio_Projects\Comprehensive_Supply_Chain_Analysis\csv_files\top_5_best_selling_products.csv"
 )
 
 # Extract product ids and total quantities sold
