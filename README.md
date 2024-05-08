@@ -204,7 +204,7 @@ _Table of the mean, standard deviation, and variance of the monthly sales for ea
 
 **Sales Performance:** The teams with the highest mean sales are not necessarily the most consistent. For example, Team 12 has a high mean (99,411.25), but also a high standard deviation and variance, indicating large swings in performance.
 
-**Consistency:** Team with low standard deviations and variance (Teams 28, 2, and 18) are likely more reliable in terms of their sales output.
+**Consistency:** Teams with low standard deviations and variance (Teams 28, 2, and 18) are likely more reliable in terms of their sales output.
 
 **Improvement Opportunities:** Teams with high variability might benefit from analysis to understand why their sales fluctuate so much. Addressing these issues could help improve consistency and overall performance.
 
